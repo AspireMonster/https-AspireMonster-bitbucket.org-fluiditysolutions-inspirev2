@@ -1,0 +1,114 @@
+@import "src/@fuse/scss/fuse";
+
+
+.fuse-card {
+    background: #039be5 !important;
+
+    border-radius: 80px;
+    &.one {
+        border-color: #ffff !important;
+    }
+}
+
+
+div.h1 {
+    color: #fff;
+    font-size: 20px;
+}
+
+div.h4.secondary-text {
+    color: #fff;
+    font-size: 12px;
+}
+
+
+.mat-grid-tile .mat-figure {
+    height: 100%;
+}
+
+.middle {
+    text-align: center;
+    width: 100%;
+}
+
+.card-preview {
+    float: left;
+    width: 425px;
+    padding: 0 10px;
+    margin-left: 35px;
+}
+
+
+.box1 {
+    margin-bottom: 12px;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+
+img {
+    max-width: 100px !important;
+    &.image {
+        width: 135%;
+    }&.circle {
+        width: 85%;
+        margin: 6px;
+    }
+}
+
+
+div.h5.secondary-text.middle {
+    color: #ffff;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.float {
+    float: right;
+    margin-right: 35px;
+}
+
+.margin-left {
+    float: left;
+    margin-left: 35px;
+}
+
+.float2 {
+    float: right;
+ 
+    margin-right: 22%;
+}
+
+.margin-left2 {
+    float: left;
+    margin-left: 18%;
+}
+
+.circle-image {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+}
+
+.circles {
+    width: 55%;
+    padding-left: 14px;
+
+}
+
+.clear-both {
+    clear: both;
+    padding-left: 1%;
+    width: 47%;
+    background-color: #d3d3d347;
+    margin-left: 25px;
+    padding-top: 10px;
+    display: inline-block;
+
+}
+
+.padding-bottom {
+    padding-bottom: 25px;
+}
