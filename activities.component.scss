@@ -1,0 +1,82 @@
+.fuse-card {
+    // text-align: center;
+    margin: 20px;
+    min-width: 340px;
+    height: 615px;
+    max-width: 320px;
+    min-width: 320px;
+    border-radius: 3px;
+    border: 1px solid;
+    position: relative;
+    white-space: normal;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+        &.a {
+        color: #ffffff !important;
+    }
+    .mat-display-1{
+        transform: rotate(-90deg);
+        position: absolute;
+        top: 62%;
+        left: 15px;
+    }
+}
+
+.p-16 {
+            padding: 95px !important;
+        }
+
+.w-140 .h-140 .border-radius-100 {
+    margin-top: 80px !important;
+}
+
+.fuse-card.feedback {
+    border-style: dashed;
+    border-color: rgb(77, 75, 75);
+    opacity: 0.2;
+}
+
+.btn {
+    background-color: #2196F3;
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 60px;
+    min-width: 85px;
+    &:hover {
+        background: #0b7dda;
+    }
+}
+
+.setup {
+        transform: rotate(-90deg);
+        position: relative;
+        top: -330px;
+        right: -10px;
+        color: white;
+        font-size: xx-large;
+        text-align: center;
+}
+
+.progress-page-content {
+    transform: rotate(-90deg);
+}
+
+.one {
+    border-radius: 50px;
+}
+
+.rotate {
+        transform: rotate(90deg);
+    }
+
+.mat-tab-body-content {
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+}
